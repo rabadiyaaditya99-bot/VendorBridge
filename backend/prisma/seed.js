@@ -62,7 +62,7 @@ async function main() {
 
   const vendorUser = await prisma.user.create({
     data: {
-      name: "Acme Corp Vendor",
+      name: "Active Crop Vendor",
       email: "vendor@vendorbridge.com",
       username: "vendor",
       phone: "6666666666",
